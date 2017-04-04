@@ -7,3 +7,5 @@ CheckMySiteBot bir Telegram chat botudur,
 Sitelerinizi her dakika kontrol eder, birşeyler ters giderse sizi bilgilendirir.
 Siteniz tekrar aktif hale gelirse size bunuda bildirecektir.
 Canınızı sürekli bildirim atarak sıkmaz!
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cagataycali/check-my-site-bot)

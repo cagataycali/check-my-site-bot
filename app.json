@@ -10,12 +10,10 @@
     "HEROKU_APP_NAME": {
       "description": "Please re-enter your App Name from the top.",
       "required": true,
-      "value": "own-check-my-site"
     },
     "TELEGRAM_TOKEN": {
       "description": "Please re-enter your App Telegram Token from the top.",
       "required": true,
-      "value": "TELEGRAM TOKEN"
     },
     "APP_URL": {
       "description": "Please re-enter your App URL from the top.",
@@ -24,6 +22,6 @@
     }
   },
   "addons": [
-    "mongolab",
+    "mongolab"
   ]
 }

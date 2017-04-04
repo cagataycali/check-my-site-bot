@@ -9,15 +9,12 @@
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git",
     "HEROKU_APP_NAME": {
       "description": "Please re-enter your App Name from the top.",
-      "required": true,
     },
     "TELEGRAM_TOKEN": {
       "description": "Please re-enter your App Telegram Token from the top.",
-      "required": true,
     },
     "APP_URL": {
       "description": "Please re-enter your App URL from the top.",
-      "required": true,
     }
   },
   "addons": [

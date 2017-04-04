@@ -7,15 +7,8 @@
   "website": "https://l00g.in",
   "env": {
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git",
-    "HEROKU_APP_NAME": {
-      "description": "Please re-enter your App Name from the top.",
-    },
-    "TELEGRAM_TOKEN": {
-      "description": "Please re-enter your App Telegram Token from the top.",
-    },
-    "APP_URL": {
-      "description": "Please re-enter your App URL from the top.",
-    }
+    "TELEGRAM_TOKEN": null,
+    "APP_URL": "https://YOURAPP.herokuapp.com:443"
   },
   "addons": [
     "mongolab"

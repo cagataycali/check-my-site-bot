@@ -6,9 +6,8 @@
   "keywords": ["checkmysite", "community", "ping"],
   "website": "https://l00g.in",
   "env": {
-    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git",
     "TELEGRAM_TOKEN": null,
-    "APP_URL": "https://YOURAPP.herokuapp.com:443"
+    "APP_URL": "https://YOURAPPNAME.herokuapp.com:443"
   },
   "addons": [
     "mongolab"

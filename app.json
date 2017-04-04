@@ -7,7 +7,6 @@
   "website": "https://l00g.in",
   "env": {
     "TELEGRAM_TOKEN": null,
-    "APP_URL": "https://YOURAPPNAME.herokuapp.com:443"
   },
   "addons": [
     "mongolab"

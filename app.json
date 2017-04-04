@@ -6,7 +6,8 @@
   "keywords": ["checkmysite", "community", "ping"],
   "website": "https://l00g.in",
   "env": {
-    "TELEGRAM_TOKEN": null
+    "TELEGRAM_TOKEN": null,
+    "APP_NAME": null
   },
   "addons": [
     "mongolab"

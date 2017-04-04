@@ -1,6 +1,5 @@
 /* eslint no-underscore-dangle: ["error", { "allow": ["_id"] }]*/
 /* eslint no-lonely-if: "error"*/
-console.log(process.env);
 const TelegramBot = require('node-telegram-bot-api');
 const CronJob = require('cron').CronJob;
 const ran = require('./ran');

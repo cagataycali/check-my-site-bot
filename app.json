@@ -6,6 +6,7 @@
   "keywords": ["checkmysite", "community", "ping"],
   "website": "https://l00g.in",
   "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git",
     "HEROKU_APP_NAME": {
       "description": "Please re-enter your App Name from the top.",
       "required": true,
@@ -19,16 +20,7 @@
     "APP_URL": {
       "description": "Please re-enter your App URL from the top.",
       "required": true,
-      "value": "APP_URL like as https://YOURAPPNAME.herokuapp.com:443"
-    }
-  },
-  "environments": {
-    "test": {
-      "env": {
-        "HEROKU_APP_NAME": "own-check-my-site",
-        "TELEGRAM_TOKEN": "TELEGRAM TOKEN",
-        "APP_URL": "https://own-check-my-site.herokuapp.com:443"
-      }
+      "value": "APP_URL like as https://own-check-my-site.herokuapp.com:443"
     }
   },
   "addons": [

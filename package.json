@@ -14,8 +14,8 @@
     "cron": "^1.1.1",
     "express": "^4.14.0",
     "is-reachable": "^2.0.0",
-    "mongoose": "^4.7.2",
-    "node-telegram-bot-api": "^0.24.0",
+    "mongoose": "^5.2.6",
+    "node-telegram-bot-api": "^0.30.0",
     "r4n": "^1.0.3",
     "request": "^2.79.0"
   },
